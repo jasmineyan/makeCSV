@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\makeCSV]
+
+[HKEY_CLASSES_ROOT\*\shell\makeCSV\command]
+@="C:\\makeCSV\\makecsv.cmd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\makeCSV]
+
+[HKEY_CLASSES_ROOT\Directory\shell\makeCSV\command]
+@="C:\\makeCSV\\makecsv.cmd \"%V\""
